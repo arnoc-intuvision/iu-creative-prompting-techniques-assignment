@@ -35,7 +35,7 @@ poetry install
 
 ## Run FastAPI Server (from /home/ubuntu)
 ```
-pm2 start "poetry run uvicorn fastapi-server.app:app --app-dir /home/ubuntu/sae-ppa-chatbot" --name sae-ppa-chatbot --interpreter python3
+pm2 start "poetry run uvicorn fastapi-server.app:app --app-dir /home/ubuntu/sae-ppa-chatbot" --name qdrant-fastapi-server
 ```
 
 ## Ensure App Will Restart Between Reboots
