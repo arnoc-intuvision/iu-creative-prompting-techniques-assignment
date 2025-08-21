@@ -122,7 +122,7 @@ class GoogleGenaiHelper:
         print("\nExtracting metadata details from the user's query ...")
 
         extraction_prompt = {
-            "system": "You're a useful AI assistant and your only function is to extract the project name from the user's query.",
+            "system": "You're a useful AI assistant and your only function is to extract the project name and code from the user's query.",
             "user": f"""
             Example 1:
             User's query: What is the performance warranty performance percentage for the Brits Industries PPA agreement ?

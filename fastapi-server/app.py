@@ -12,7 +12,6 @@ from commons.aws_secrets_manager_helper import AWSSecretManagerHelper
 from commons.google_genai_helper import GoogleGenaiHelper
 
 load_dotenv(dotenv_path=".env")
-load_dotenv(dotenv_path="./cloud-credentials/aws_credentials.env")
 
 secrets_helper = AWSSecretManagerHelper()
 aws_secret_name = os.getenv("AWS_SECRET_NAME")
